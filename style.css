@@ -1,0 +1,46 @@
+.heading{
+    width: 100%;
+    text-align: left;
+    height: 40px;
+    position: fixed;
+}
+.heading h3{
+    display: inline;
+    font-size: 35px;
+}
+.instructions{
+    float: right;
+    border: 1px solid white;
+    margin-top: 2.5px
+}
+
+#start, #pause, #resume, #restart, #status{
+    font-size: 22px;
+}
+
+#source_code{
+    background-color: white;
+    line-height: 2;
+    margin: 0px;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+.instructions{
+    margin-right: 5px;
+}
+
+#instructions_heading{
+    margin: 0;
+}
+
+.modal-body{
+    font-size: 20px;
+    text-align: left;
+}
+
+canvas{
+    border: 10px solid white;
+}
